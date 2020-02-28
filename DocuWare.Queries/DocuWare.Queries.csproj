@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocuWare.Api.Common\DocuWare.Api.Common.csproj" />
+    <ProjectReference Include="..\DocuWare.Api.Models\DocuWare.Api.Models.csproj" />
+    <ProjectReference Include="..\DocuWare.Data.Access\DocuWare.Data.Access.csproj" />
+    <ProjectReference Include="..\DocuWare.Data.Model\DocuWare.Data.Model.csproj" />
+  </ItemGroup>
+
+</Project>
